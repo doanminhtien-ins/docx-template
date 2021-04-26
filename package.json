@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "author": "IVP",
   "license": "MIT",
-  "main": "dist/index_bundle.js",
+  "main": "src/index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --mode=development"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
