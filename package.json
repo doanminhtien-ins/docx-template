@@ -1,0 +1,17 @@
+{
+  "name": "docx-template",
+  "version": "1.0.0",
+  "author": "IVP",
+  "license": "MIT",
+  "main": "dist/index_bundle.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
